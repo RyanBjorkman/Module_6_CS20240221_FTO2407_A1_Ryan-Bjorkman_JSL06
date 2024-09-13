@@ -17,6 +17,12 @@ header {
     padding: 1rem 0;
 }
 
+.container {
+    display: flex; /* Use flexbox to display the menu and order side by side */
+    justify-content: space-between; /* Space out the menu and order */
+    margin: 20px;
+}
+
 header h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
